@@ -1,0 +1,23 @@
+#Window 200x200
+Home
+LookAt 100 105
+Forward 5
+PenUp
+GoTo 80 80
+PenDown
+TurnTo 90; Forward 20
+PenUp
+GoTo 120 80
+PenDown
+Forward 20
+PenUp
+Forward 10
+Left   90
+Forward 20
+Right   135
+PenDown
+SetColor 255 0 0
+Repeat 3 {
+    Repeat 30 { Forward 1; Right 1; }
+}
+Die
